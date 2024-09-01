@@ -1,0 +1,59 @@
+.header {
+    background: #010101;
+    min-height: 162px;
+    padding: 17px;
+    &__top {
+        min-height: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__contacts {
+        display: flex;
+        gap: 24px;
+    } 
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 36px 0 28px 0;
+    }
+
+}
+// Шапкка сайта с контактами
+.contacts__link {
+    display: flex;
+    color: #FFF;
+    font-family: "NunitoSans", sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+    gap: 8px;
+    align-items: center;
+}
+.call-request_button {
+    color: #4F8FF0;
+    font-family: "NunitoSans", sans-serif;
+    font-weight: 700;
+    line-height: 150%; 
+}
+
+/* Нижняя часть шапки сайта с навигацией */
+
+.nav-menu {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        font-family: "NunitoSans";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 120%; 
+        gap: 32px;
+    }
+}
+.nav-menu li a:hover {
+    color: #4F8FF0;
+    transition: 0.3;
+}

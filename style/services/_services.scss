@@ -1,0 +1,74 @@
+.services {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 80px 0 80px 0;
+    &__title {
+        &:after {
+        content: "";
+        margin: 0 auto;
+    }
+  }
+  &__subtitle {
+        margin-top: 24px;
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  &__card {
+    background-color: #fff;
+    width: 412px;
+    padding: 50px 32px;
+    transition: 0.5s;
+    cursor: url("../assets/cursor/servic_pointer.svg"), auto;
+    &:hover {
+        background-color: #4F8FF0;
+        color: #fff; 
+        transform: scale(1.05);
+    &-icon {
+      svg {
+        fill: red;
+      }
+    }
+      
+        .services__card-title {
+            color: #fff;
+        }
+        .services__card-hover {
+            opacity: 1;
+        }
+  }
+
+
+  &__frame1 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+  }
+    }
+ &__card-title {
+        color: var(--colors-black-text, #222);
+        text-align: center;
+        font-family: "NunitoSans";
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 150%;
+ }
+} 
+// .services__card-title {
+//     color: var(--colors-black-text, #222);
+//     text-align: center;
+//     font-family: "NunitoSans";
+//     font-size: 20px;
+//     font-weight: 800;
+//     line-height: 150%;
+// }
